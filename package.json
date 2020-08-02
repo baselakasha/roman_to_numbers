@@ -1,0 +1,16 @@
+{
+  "name": "roman_to_numbers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest --collectCoverage",
+    "test-watch": "jest --collectCoverage --watchAll"
+  },
+  "keywords": [],
+  "author": "BaselAkasha",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.2.2"
+  }
+}
