@@ -11,6 +11,7 @@ You need [node.js](https://nodejs.org/en/) to run the program.
 ### Usage:
 
     const converter = require("./RomanToIntConverter");
-    const my_num = console.log(converter.convert("XIV")); // Output: 14
+    const my_num = converter.convert("XIV");
+    console.log(my_num); // output: 14
 
 If you pass an invalid input it will throw InvaildInput exception.
